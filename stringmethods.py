@@ -1,0 +1,43 @@
+#string methods 
+a = "samiullah baig"
+a1 = len(a)
+print(a1)
+print(a.capitalize())
+print(a.casefold())
+print(a.center(50))
+print("-----------------")
+print(a.count("b"))
+print("-----------------")
+# print(a.encode)
+print(a.lower())
+print(a.upper())
+print(a.rstrip("a"))
+print("-----------------")
+print(a.replace(" ",","))
+print("-----------------")
+print(a.replace(" ",",").split(" "))
+print("-----------------")
+print(a.endswith("a",4,8))
+print("-----------------")
+print(a.find("g"))
+print("-----------------")
+print(a.isalnum())
+print("-----------------")
+print(a.isalpha())
+print(a.islower())
+print(a.isupper())
+b = "Welom to python"
+print(b)
+print(b.isprintable())
+c = "    "
+print(c)
+print(c.isspace())
+d = "all glitters are not gold"
+print(d)
+d2 = d.title()
+print(d2)
+print(d2.istitle())
+
+pie ="sami"
+print(len(pie))
+print(pie[-4:-1])
